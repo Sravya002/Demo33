@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interior Items Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero {
+      background: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c") no-repeat center/cover;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+
+    .hero a {
+      padding: 12px 25px;
+      background-color: #ff6600;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .hero a:hover {
+      background-color: #cc5200;
+    }
+
+    .sections {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 50px 20px;
+      gap: 20px;
+    }
+
+    .section-card {
+      background: #fff;
+      width: 250px;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .section-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    .section-card h3 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .section-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .section-card a:hover {
+      background-color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #222;
+      color: #fff;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Interior Items</h1>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Transform Your Space</h2>
+    <p>Explore our collection of furniture, decor, and lighting to make your home beautiful.</p>
+    <a href="#sections">Explore Now</a>
+  </section>
+
+  <!-- Sections / Links -->
+  <section id="sections" class="sections">
+    <div class="section-card">
+      <h3>Furniture</h3>
+      <p>Comfortable sofas, stylish tables, and more for your living spaces.</p>
+      <a href="furniture.html">View Furniture</a>
+    </div>
+
+    <div class="section-card">
+      <h3>Decor</h3>
+      <p>Beautiful home accessories to add personality and charm.</p>
+      <a href="decor.html">View Decor</a>
+    </div>
+
+    <div class="section-card">
+      <h3>Lighting</h3>
+      <p>Stylish lamps and lights to brighten up your home beautifully.</p>
+      <a href="lighting.html">View Lighting</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Interior Items. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
